@@ -10,8 +10,8 @@ LogLevels is the secure logging framework for Swift.
 
 ## Features
 
-- [x] Log include thread, file, and function.
-- [x] Supports multiple levels, i.e. see everything, only the critical errors, etc.
+- [x] Logs include thread, file, and function.
+- [x] Supports multiple logging levels (i.e. see all logs, only the critical errors, etc).
 - [x] Disables all logging for production versions.
 
 ## Requirements
