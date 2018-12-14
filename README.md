@@ -31,3 +31,16 @@ github "robbroadwell/LogLevels"
 ```
 
 Run `$ carthage update` to build the framework and drag the built `LogLevels.framework` into your Xcode project.
+
+### Usage
+
+```swift
+LogLevel(.assert) // sets the minimum level of log you want to appear
+
+Log("assert", level: .assert) // most severe log event
+Log("error", level: .error)
+Log("warn", level: .warn)
+Log("info", level: .info)
+Log("debug", level: .debug)
+Log("verbose", level: .verbose) // most benign log event
+```
