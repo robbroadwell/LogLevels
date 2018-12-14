@@ -1,0 +1,11 @@
+framework module LogLevels {
+  umbrella header "LogLevels.h"
+
+  export *
+  module * { export * }
+}
+
+module LogLevels.Swift {
+    header "LogLevels-Swift.h"
+    requires objc
+}
