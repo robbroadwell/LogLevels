@@ -34,13 +34,15 @@ Run `$ carthage update` to build the framework and drag the built `LogLevels.fra
 
 ### Usage
 
+Check out the demo app for an example. 
+
 ```swift
 LogLevel(.assert) // sets the minimum level of log you want to appear
 
-Log("assert", level: .assert) // most severe log event
-Log("error", level: .error)
-Log("warn", level: .warn)
-Log("info", level: .info)
-Log("debug", level: .debug)
-Log("verbose", level: .verbose) // most benign log event
+Log("This is an assert log.", level: .assert) // most severe log event
+Log("This is an error log.", level: .error)
+Log("This is a warn log.", level: .warn)
+Log("This is an info log.", level: .info)
+Log("This is a debug log.", level: .debug)
+Log("This is a verbose log.", level: .verbose) // most benign log event
 ```
